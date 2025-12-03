@@ -67,7 +67,7 @@ pnpm install --frozen-lockfile
 
 3. Create a folder called `minecraftChat` in `/Vencord/src/plugins`.
 
-4. Download `index.tsx` from latest [Releases](https://github.com/aurickk/Discord-Chat-Integration/releases) and move it into the newly created `minecraftChat` folder.
+4. Download `index.tsx` from the latest [release](https://github.com/aurickk/Discord-Chat-Integration/releases) and move it into the newly created `minecraftChat` folder.
 
 5. Run:
 ```sh
