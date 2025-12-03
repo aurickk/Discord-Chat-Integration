@@ -19,7 +19,8 @@
 -  **Easy Configuration**: Simple GUI-based settings in Vencord plugin
 -  **Status Monitoring**: Check connection status with in-game commands
 ## Demo Video 
-https://github.com/user-attachments/assets/244922c6-1f05-4bd4-8e6f-5b1e613f5818
+
+https://github.com/user-attachments/assets/d0eb6e7f-7e2e-495b-bcd3-779163c09aef
 
 ## Requirements
 
