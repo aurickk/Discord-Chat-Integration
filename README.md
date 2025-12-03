@@ -17,10 +17,11 @@
 -  **Easy Configuration**: Simple GUI-based settings in Vencord plugin
 -  **Status Monitoring**: Check connection status with in-game commands
 ## Usecase Demo
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5caf899d-9382-43d7-a15f-a84a71e55d22" width="30%"/>
+</p>
+<p align="center">Combine Discord stream and chat integration to control and view Minecraft from another Discord client.</p>
 
-<img src="https://github.com/user-attachments/assets/5caf899d-9382-43d7-a15f-a84a71e55d22" alt="Discord-Chat-Integration-Logo" width="25%"/>
-
-Combine Discord stream and chat integration to control and view Minecraft from another Discord client.
 
 ## Requirements
 
