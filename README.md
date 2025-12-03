@@ -16,9 +16,10 @@
 -  **Command Support**: Send Minecraft commands directly from Discord
 -  **Easy Configuration**: Simple GUI-based settings in Vencord plugin
 -  **Status Monitoring**: Check connection status with in-game commands
-## Demo Video 
+## Demo
+![demogif](https://github.com/user-attachments/assets/5caf899d-9382-43d7-a15f-a84a71e55d22)
 
-https://github.com/user-attachments/assets/d0eb6e7f-7e2e-495b-bcd3-779163c09aef
+Combine Discord stream and Chat-Intergration to control and view Minecraft from another Discord Client.
 
 ## Requirements
 
@@ -80,6 +81,9 @@ pnpm inject
 
 
 ## Configuration
+### Config Demo
+
+https://github.com/user-attachments/assets/d0eb6e7f-7e2e-495b-bcd3-779163c09aef
 
 ### Vencord Plugin Settings
 
