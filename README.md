@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/d0eb6e7f-7e2e-495b-bcd3-779163c09aef
 
 1. **Download the mod**
    - Download the latest `discord-chat-integration-*.jar` from [Releases](https://github.com/aurickk/Discord-Chat-Integration/releases)
-   - Or build from source (see [Building from Source](#building-from-source))
+   - Or build from source (see [Building from Source](#building-the-mod-from-source))
 
 2. **Install Fabric Loader**
    - Download and install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21.x
