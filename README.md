@@ -1,7 +1,5 @@
-
 <p align="center">
-
-<img src="https://github.com/user-attachments/assets/005d99c0-08d2-46e5-ac38-72ed71396427" alt="Discord-Chat-Integration-Logo" width="25%"/>
+<img src="https://github.com/user-attachments/assets/b83f5ac2-824c-4250-ba00-49af7014b8e5" alt="Discord-Chat-Integration-Logo" width="25%"/>
 </p>
 <h1 align="center">Discord Chat Integration</h1>
 
@@ -55,7 +53,7 @@ https://github.com/user-attachments/assets/d0eb6e7f-7e2e-495b-bcd3-779163c09aef
 
 ### Custom Vencord Plugin
 
-Because this is not an official Vencord plugin, you must rebuild and inject Vencord with the plugin.
+Because this is not an official Vencord plugin, you must rebuild and inject Discord with the plugin.
 
 1. Install [Node.js](https://nodejs.org/en), [git](https://git-scm.com/install/), and [pnpm](https://pnpm.io/installation) if missing.
 
