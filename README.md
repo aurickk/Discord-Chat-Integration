@@ -35,7 +35,7 @@ https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
 > [!IMPORTANT]
 > Both the Vencord plugin and the mod are required to be installed.
 
-### Installiong the Minecraft Mod
+### Installing the Minecraft Mod
 
 1. **Download the mod**
    - Download the latest `discord-chat-integration-*.jar` from [Releases](https://github.com/aurickk/Discord-Chat-Integration/releases)
