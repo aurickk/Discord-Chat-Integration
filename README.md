@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/user-attachments/assets/c5fb5f71-e048-4296-b93c-3af3cab6bb80" alt="Discord-Chat-Integration-Banner" width="25%"/>
+<img src="https://github.com/user-attachments/assets/35b66ae1-cfe5-4ecc-ae4a-82d137e3c808" alt="Discord-Chat-Integration-Banner" width="25%"/>
 </p>
 <h1 align="center">Discord Chat Integration</h1>
 
