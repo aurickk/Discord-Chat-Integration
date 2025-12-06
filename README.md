@@ -15,8 +15,7 @@
 -  **Multi-Client Support**: Control and view the chats of multiple Minecraft clients from Discord
 -  **Real-Time**: Instant message relay using WebSocket communication
 -  **Botless**: Does not require setting up any Discord bots
--  **Easy Configuration**: Simple GUI-based settings in Vencord plugin
-
+-  **Discord Plugin**: Supports both BetterDiscord and Vencord
 ## Demo Video (Vencord)
 
 https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
@@ -28,17 +27,17 @@ https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
 - **Fabric API**: Latest version for 1.21.x
 - **Java**: 21 or higher
 
-- **Discord**: **MinecraftChat** Vencord plugin
+- **Discord**: Latest MinecraftChat Vencord/BetterDiscord plugin
 
 ## Installation
 
 > [!IMPORTANT]
-> Both the Vencord plugin and the mod are required to be installed.
+> Both the Discord plugin and the mod are required to be installed.
 
 ### Installing the Minecraft Mod
 
 1. **Download the mod**
-   - Download the latest `discord-chat-integration-*.jar` from [Releases](https://github.com/aurickk/Discord-Chat-Integration/releases)
+   - Download the latest `discord-chat-integration-[VERSION]-[MINECRAFT-VERSION].jar` from the [release](https://github.com/aurickk/Discord-Chat-Integration/releases) page
    - Or build from source (see [Building from Source](#building-from-source))
 
 2. **Install Fabric Loader**
@@ -48,25 +47,27 @@ https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
 3. **Install the mod**
    - Place the mod JAR file in your `.minecraft/mods` folder
 
-### Vecord Plugin
+### Discord Plugin
 
-[Vencord Plugin Installation](https://github.com/aurickk/Discord-Chat-Integration/tree/main/vencord-plugin/minecraftChat)
+ [BetterDiscord Plugin Installation](https://github.com/aurickk/Discord-Chat-Integration/blob/main/betterdiscord-plugin/README.md)
+
+  or
+
+ [Vencord Plugin Installation](https://github.com/aurickk/Discord-Chat-Integration/blob/main/vencord-plugin/minecraftChat/README.md)
 
 ## Setup and Configurations
 
-### Vencord Plugin Settings
+### Quick Settings Access
 
-After enabling the plugin, configure it in **User Settings → Vencord → Plugins → MinecraftChat**:
+A **gear icon** appears next to the chat input box when the plugin is enabled. Click it to quickly access the Minecraft Chat settings without navigating through Discord's settings menu. The icon turns **green** when at least one client is connected.
+
+Addional configuration can be found in **User Settings → Vencord/BetterDiscord → Plugins → MinecraftChat**
 
 | Setting | Description | Default |
 |---------|-------------|---------|
 | **Auto Connect** | Automatically connect to all enabled clients when Discord starts | `true` |
 | **Connection Logging Channel** | Discord channel ID where connection/disconnection events are posted (Leave blank to disable) | Empty |
 | **Enable Console Logging** | Log plugin debug messages to browser console (DevTools F12) | `true` |
-
-### Quick Settings Access
-
-A **gear icon** appears next to the chat input box when the plugin is enabled. Click it to quickly access the Minecraft Chat settings without navigating through Discord's settings menu. The icon turns **green** when at least one client is connected.
 
 ### Adding Minecraft Clients
 
@@ -197,8 +198,8 @@ In each Minecraft client:
 ## How It Works
 
 1. **Minecraft Mod** runs a WebSocket server on localhost (default port 25580)
-2. **Discord Plugin** (Vencord or BetterDiscord) connects to the WebSocket server as a client
-3. **Discord Messages** are intercepted by the plugin and sent to Minecraft via WebSocket
+2. **Discord Plugin** (Vencord or BetterDiscord) Connects to the mod via WebSockets
+3. **Discord Messages** are intercepted by the plugin and sent to Minecraft
 4. **Minecraft Messages** are intercepted by mixins and sent to Discord as the user running the plugin (if forwarding enabled)
 5. **Multi-client support** allows different Minecraft instances to connect to the same or different Discord channels
 
