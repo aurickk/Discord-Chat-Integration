@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Discord Chat Integration</h1>
 
-<p align="center">A client-side Minecraft Fabric mod that bridges Discord channel chat with your Minecraft client, allowing you to send messages from Discord to Minecraft in real-time without Discord bots.
+<p align="center">Brings your Minecraft chat into Discord. Send messages/commands to Minecraft from Discord without bots.
 </p>
 
 
@@ -14,6 +14,7 @@
 -  **Client-Side mod**: Mod works entirely on the client, no server modifications needed
 -  **Multi-Client Support**: Control and view the chats of multiple Minecraft clients from Discord
 -  **Real-Time**: Instant message relay using WebSocket communication
+-  **Botless**: Does not require setting up any Discord bots
 -  **Easy Configuration**: Simple GUI-based settings in Vencord plugin
 
 ## Demo Video (Vencord)
