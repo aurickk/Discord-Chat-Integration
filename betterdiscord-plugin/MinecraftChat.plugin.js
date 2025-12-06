@@ -57,7 +57,7 @@ module.exports = class MinecraftChat {
     getName() { return "MinecraftChat"; }
     getAuthor() { return "Aurick"; }
     getDescription() { return "Bridge Discord channel chat with multiple Minecraft clients via WebSocket"; }
-    getVersion() { return "1.0.0"; }
+    getVersion() { return "1.0.1"; }
 
     load() {
         // Load settings
@@ -1181,5 +1181,3 @@ module.exports = class MinecraftChat {
         return panel;
     }
 };
-
-
