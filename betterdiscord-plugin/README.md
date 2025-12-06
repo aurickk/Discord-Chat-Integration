@@ -5,7 +5,7 @@
 
 1. Download `MinecraftChat.plugin.js` from the latest [release](https://github.com/aurickk/Discord-Chat-Integration/releases) page.
 
-2. Navigate to User Setting → BetterDiscord → Plugin.
+2. Navigate to User Settings → BetterDiscord → Plugin.
 
 3. Click on the top left "Open Plugin Folder" folder icon.
 
