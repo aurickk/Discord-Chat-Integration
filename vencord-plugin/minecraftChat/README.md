@@ -1,4 +1,4 @@
-# Exterternal  Vencord Plugin Installation Guide
+# External Vencord Plugin Installation Guide
 
 Because this is not an official Vencord plugin, you must rebuild and inject Discord with the plugin.
 > [!WARNING]
