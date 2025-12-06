@@ -1,4 +1,4 @@
-# External Vencord Plugin Installation Guide
+# External [Vencord](https://vencord.dev/) Plugin Installation Guide
 
 > [!WARNING]
 > The "Forward to Discord" feature (which automatically sends Minecraft chat messages to Discord channels) may be considered **self-botting** and could violate Discord's Terms of Service. Using automated message sending features in public Discord servers may result in account action.
