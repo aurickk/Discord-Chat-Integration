@@ -5,7 +5,7 @@
  * @version 1.0.1
  * @description Bridge Discord channel chat with multiple Minecraft clients via WebSocket
  * @website https://github.com/aurickk/minecraft-chat-integration
- * @source https://github.com/aurickk/minecraft-chat-integration
+ * @source https://github.com/aurickk/Discord-Chat-Integration/blob/main/betterdiscord-plugin
  */
 
 module.exports = class MinecraftChat {
@@ -1181,4 +1181,5 @@ module.exports = class MinecraftChat {
         return panel;
     }
 };
+
 
