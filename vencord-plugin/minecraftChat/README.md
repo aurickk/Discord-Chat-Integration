@@ -13,7 +13,7 @@ git clone https://github.com/Vendicated/Vencord
 cd Vencord
 pnpm install --frozen-lockfile
 ```
-3. Navigate to the `src` folder in Vencord's repository and create a new folder called `userplugins` if it dosen't already exist.
+3. Navigate to the `src` folder in the cloned Vencord repository, create a new folder called `userplugins` if it dosen't already exist.
 
 3. Download `minecraftChat.tsx` from the latest [release](https://github.com/aurickk/Discord-Chat-Integration/releases) and move it to the `userplugins` folder.
 
