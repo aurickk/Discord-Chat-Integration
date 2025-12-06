@@ -7,7 +7,7 @@
 
 2. Navigate to User Settings → BetterDiscord → Plugin.
 
-3. Click on the top left "Open Plugin Folder" folder icon.
+3. Click on the top left "Open Plugin Folder" folder icon button.
 
 4. Move `MinecraftChat.plugin.js` into the newly opened directory.
 
