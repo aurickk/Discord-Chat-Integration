@@ -2,10 +2,10 @@
  * @name MinecraftChat
  * @author Aurick
  * @authorId 1348025017233047634
- * @version 1.0.0
+ * @version 1.0.1
  * @description Bridge Discord channel chat with multiple Minecraft clients via WebSocket
- * @website https://github.com/aurick
- * @source https://github.com/aurick/minecraft-chat-integration
+ * @website https://github.com/aurickk/minecraft-chat-integration
+ * @source https://github.com/aurickk/minecraft-chat-integration
  */
 
 module.exports = class MinecraftChat {
@@ -1181,3 +1181,4 @@ module.exports = class MinecraftChat {
         return panel;
     }
 };
+
