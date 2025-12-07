@@ -47,7 +47,7 @@ https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
 3. **Install the mod**
    - Place the mod JAR file in your `.minecraft/mods` folder
 
-### Discord Plugin
+### Installing the Discord Plugin
 
  [BetterDiscord Plugin Installation](https://github.com/aurickk/Discord-Chat-Integration/blob/main/betterdiscord-plugin/README.md)
 
