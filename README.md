@@ -36,16 +36,11 @@ https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
 
 ### Installing the Minecraft Mod
 
-1. **Download the mod**
-   - Download the latest `discord-chat-integration-[version]-[mod_version].jar` from the [release](https://github.com/aurickk/Discord-Chat-Integration/releases) page
-   - Or build from source (see [Building from Source](#building-from-source))
-
-2. **Install Fabric Loader**
-   - Download and install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21.x
-   - Make sure to also install [Fabric API](https://modrinth.com/mod/fabric-api)
-
-3. **Install the mod**
-   - Place the mod JAR file in your `.minecraft/mods` folder
+1. Install [Fabric Loader](https://fabricmc.net/use/) for your Minecraft version
+2. Download the latest [Fabric API](https://modrinth.com/mod/fabric-api) for your Minecraft version
+3. Download the latest `discord-chat-integration-[version]-[mod_version].jar` from the [Releases](https://github.com/aurickk/Discord-Chat-Integration/releases/) page
+4. Place both mods in your `.minecraft/mods` folder
+5. Launch Minecraft
 
 ### Installing the Discord Plugin
 
