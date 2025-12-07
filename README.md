@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
 
 2. **Install Fabric Loader**
    - Download and install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21.x
-   - Make sure to also install Fabric API
+   - Make sure to also install [Fabric API](https://modrinth.com/mod/fabric-api)
 
 3. **Install the mod**
    - Place the mod JAR file in your `.minecraft/mods` folder
