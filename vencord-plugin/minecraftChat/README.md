@@ -26,5 +26,5 @@ pnpm inject
 5. If built and injected successfully, follow the remaining prompt(s) and restart Discord to apply changes.
 6. In Discord's Vencord plugins menu, enable the MinecraftChat Plugin.
 
-[Offical Vencord custom plugin installation documentation](https://docs.vencord.dev/installing/custom-plugins/)
+[Offical Vencord custom plugin installation guide](https://docs.vencord.dev/installing/custom-plugins/)
 
