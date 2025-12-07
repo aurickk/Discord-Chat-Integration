@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Discord Chat Integration</h1>
 
-<p align="center">Brings your Minecraft chat into Discord. Send messages/commands to Minecraft from Discord without bots.
+<p align="center">Brings your Minecraft chat into Discord. Send/recieve messages/commands to Minecraft from Discord without bots.
 </p>
 
 
