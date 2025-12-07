@@ -3,7 +3,7 @@
 > [!WARNING]
 > The "Forward to Discord" feature (which automatically sends Minecraft chat messages to Discord channels) may be considered **self-botting** and could violate Discord's Terms of Service. Using automated message sending features in public Discord servers may result in account action. It is highly recommend to create a new **private** Discord server dedicated and configured to the plugin.
 
-Because this is not an official Vencord plugin, you must build Vencord with the plugin from source before install Vencord.
+Because this is not an official Vencord plugin, you must build Vencord with the plugin from source before injecting Discord.
 
 1. Install [Node.js](https://nodejs.org/en), [git](https://git-scm.com/install/), and [pnpm](https://pnpm.io/installation) if missing.
 
