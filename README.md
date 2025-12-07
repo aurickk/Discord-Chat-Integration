@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">Discord Chat Integration</h1>
 
-<p align="center">Brings your Minecraft chat into Discord. Send/receive messages/commands to Minecraft from Discord without bots. 
+<p align="center">Brings your Minecraft chat into Discord. Send messages/commands and listens to Minecraft from Discord without bots. 
 </p>
 
 
@@ -37,7 +37,7 @@ https://github.com/user-attachments/assets/cfc95f58-096f-4618-a5c4-af739f02f362
 ### Installing the Minecraft Mod
 
 1. **Download the mod**
-   - Download the latest `discord-chat-integration-[VERSION]-[MINECRAFT-VERSION].jar` from the [release](https://github.com/aurickk/Discord-Chat-Integration/releases) page
+   - Download the latest `discord-chat-integration-[version]-[mod_version].jar` from the [release](https://github.com/aurickk/Discord-Chat-Integration/releases) page
    - Or build from source (see [Building from Source](#building-from-source))
 
 2. **Install Fabric Loader**
