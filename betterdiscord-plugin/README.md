@@ -12,3 +12,5 @@
 4. Move `MinecraftChat.plugin.js` into the newly opened directory.
 
 5. Enable the MinecraftChat plugin in the BetterDiscord plugins menu.
+
+[Offical BetterDiscord plugin installation guide](https://docs.betterdiscord.app/users/guides/installing-addons)
