@@ -191,5 +191,5 @@ In each Minecraft client:
 2. **Discord Plugin** (Vencord or BetterDiscord) Connects to the mod via WebSockets
 3. **Discord Messages** are intercepted by the plugin and sent to Minecraft
 4. **Minecraft Messages** are intercepted by mixins and sent to Discord as the user running the plugin (if forwarding enabled)
-5. **Multi-client support** allows different Minecraft instances to connect to the same or different Discord channels
+5. **Multi-client support** allows different Minecraft instances to connect to the same or different Discord channels 
 
