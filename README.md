@@ -131,11 +131,6 @@ Shows the current connection status:
 #### `/discordchat port <number>`
 Changes the WebSocket server port. Must be between 1024 and 65535.
 
-Example:
-```
-/discordchat port 25581
-```
-
 #### `/discordchat reconnect`
 Restarts the WebSocket server. Useful if the connection is lost or after changing the port.
 
