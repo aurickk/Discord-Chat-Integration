@@ -42,7 +42,7 @@ This mod bridges Discord and Minecraft through a local WebSocket connection, all
 ### Installing the Discord Plugin
 
 - [BetterDiscord Plugin Installation](https://github.com/aurickk/Discord-Chat-Integration/blob/main/betterdiscord-plugin/README.md)
-- [Vencord Plugin Installation](https://github.com/aurickk/Discord-Chat-Integration/blob/main/vencord-plugin/minecraftChat/README.md)
+- [Vencord Plugin Installation](https://github.com/aurickk/Discord-Chat-Integration/blob/main/vencord-plugin/README.md)
 
 ## Usage
 
