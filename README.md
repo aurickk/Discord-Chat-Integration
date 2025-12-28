@@ -23,13 +23,14 @@ This mod bridges Discord and Minecraft through a local WebSocket connection, all
 - **Fabric Loader**: 0.18.1 or higher
 - **Fabric API**: Latest version for 1.21.x
 - **Java**: 21 or higher
-
 - **Discord**: Latest MinecraftChat Vencord/BetterDiscord plugin
 
-### Installation
+---
 
 > [!IMPORTANT]
 > Both the Discord plugin and the mod are required to be installed.
+
+---
 
 ### Installing the Minecraft Mod
 
@@ -38,6 +39,8 @@ This mod bridges Discord and Minecraft through a local WebSocket connection, all
 3. Download the latest `discord-chat-integration-[version]-[mod_version].jar` from the [Releases](https://github.com/aurickk/Discord-Chat-Integration/releases/) page
 4. Place both mods in your `.minecraft/mods` folder
 5. Launch Minecraft
+
+---
 
 ### Installing the Discord Plugin
 
@@ -63,6 +66,8 @@ This mod bridges Discord and Minecraft through a local WebSocket connection, all
 
 A **gear icon** appears next to the chat input box when the plugin is enabled. Click it to quickly access the Minecraft Chat settings without navigating through Discord's settings menu. The icon turns **green** when at least one client is connected.
 
+---
+
 ### Adding Minecraft Clients
 
 1. Click **"Add Client"** in quick access menu
@@ -80,6 +85,28 @@ A **gear icon** appears next to the chat input box when the plugin is enabled. C
    - Click "Copy Channel ID"
    - Paste into the plugin settings
 
+---
+
+### Multi-Client Setup
+
+> [!IMPORTANT]
+> Different Minecraft clients cannot share the same port, you can 
+
+You can run multiple Minecraft clients, each connected to different or shared Discord channels:
+
+**Different Channels:**
+1. **Client 1**: Port `25580` → Discord Channel `123456789`
+2. **Client 2**: Port `25581` → Discord Channel `987654321`
+3. **Client 3**: Port `25582` → Discord Channel `555555555`
+
+**Shared Channel:**
+Multiple clients can be assigned to the same Discord channel. When this happens:
+- Messages from Discord are sent to **all** Minecraft clients assigned to that channel
+- Messages forwarded to Discord include a `[Client Name]` tag to identify the source
+- If multiple clients are on the same sync group, the message/command will be sent on the same server tick
+
+---
+
 Addional configuration can be found in **User Settings → Vencord/BetterDiscord → Plugins → MinecraftChat**
 
 | Setting | Description | Default |
@@ -88,6 +115,8 @@ Addional configuration can be found in **User Settings → Vencord/BetterDiscord
 | **Advanced Features** | Enable advanced features (Chat Delay, Sync Groups, Automations) | `false` |
 | **Connection Logging Channel** | Discord channel ID where connection/disconnection events are posted (Leave blank to disable) | Empty |
 | **Enable Console Logging** | Log plugin debug messages to browser console (DevTools F12) | `true` |
+
+---
 
 ### Minecraft Mod Configuration
 
@@ -113,6 +142,8 @@ Queue messages from Discord and send them at once to Minecraft at the same game 
 3. Toggle "Chat Delay" on to start queuing messages
 4. Click "Send Queue" to release all queued messages at once
 
+---
+
 ### Sync Groups
 
 Assign multiple Minecraft clients to sync groups (A-F) for tick-perfect message execution. When clients in the same sync group receive messages, they execute them on the exact same server game tick when assigned to the same Discord channel or with [Chat Delay](#chat-delay).
@@ -121,6 +152,8 @@ Assign multiple Minecraft clients to sync groups (A-F) for tick-perfect message 
 1. Enable "Advanced Features" in plugin settings
 2. In client configuration, set each client's "Sync Group" (A-F or None)
 3. "None" disables synchronization for that client
+
+---
 
 ### Automations
 
@@ -145,6 +178,8 @@ Create trigger-based automation rules that execute actions when specific message
 - **Enable Chat Delay**: Turn on message queuing
 - **Disable Chat Delay**: Turn off queuing and send all queued messages
 - **Wait**: Delay in milliseconds before next action
+
+---
 
 ### Commands
 
@@ -177,24 +212,6 @@ Shows:
 - Last sync execution details (target tick, execution tick, timing)
 
 This command is particularly useful when using [Sync Groups](#sync-groups) to verify that messages from multiple clients are executing at the correct game ticks.
-
-### Multi-Client Setup
-
-> [!IMPORTANT]
-> Different Minecraft clients cannot share the same port, you can 
-
-You can run multiple Minecraft clients, each connected to different or shared Discord channels:
-
-**Different Channels:**
-1. **Client 1**: Port `25580` → Discord Channel `123456789`
-2. **Client 2**: Port `25581` → Discord Channel `987654321`
-3. **Client 3**: Port `25582` → Discord Channel `555555555`
-
-**Shared Channel:**
-Multiple clients can be assigned to the same Discord channel. When this happens:
-- Messages from Discord are sent to **all** Minecraft clients assigned to that channel
-- Messages forwarded to Discord include a `[Client Name]` tag to identify the source
-- If multiple clients are on the same sync group, the message/command will be sent on the same server tick
 
 ## Building from Source
 
