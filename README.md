@@ -90,7 +90,7 @@ A **gear icon** appears next to the chat input box when the plugin is enabled. C
 ### Multi-Client Setup
 
 > [!IMPORTANT]
-> Different Minecraft clients cannot share the same port, you can 
+> Different Minecraft clients cannot share the same port, you can change the port with a [command](#minecraft-mod-configuration).
 
 You can run multiple Minecraft clients, each connected to different or shared Discord channels:
 
