@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "discord.chat.mc.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ChatComponentMixin",
+		"LocalPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
