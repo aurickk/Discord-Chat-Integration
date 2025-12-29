@@ -109,7 +109,7 @@ public class ChatHandler {
                 if (message.messageId != null && !message.messageId.isEmpty()) {
                     if (processedMessageIds.putIfAbsent(message.messageId, Boolean.TRUE) != null) return;
                     if (processedMessageIds.size() > 2000) processedMessageIds.clear();
-                }
+                    }
                 
                 if (message.syncGroup != null && !message.syncGroup.isEmpty()) {
                     lastSyncGroup = message.syncGroup;

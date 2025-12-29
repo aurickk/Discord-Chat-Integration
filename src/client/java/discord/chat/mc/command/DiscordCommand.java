@@ -214,8 +214,8 @@ public class DiscordCommand {
                                 var playerInfo = client.player.connection.getPlayerInfo(client.player.getUUID());
                                 if (playerInfo != null) ping = playerInfo.getLatency();
                             } catch (Exception ignored) {}
+                            }
                         }
-                    }
                 } catch (Exception ignored) {}
             } else {
                 ping = 0;

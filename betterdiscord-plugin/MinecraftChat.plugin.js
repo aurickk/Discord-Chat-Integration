@@ -1717,7 +1717,8 @@ module.exports = class MinecraftChat {
             port: 25580 + clients.length,
             channelId: "",
             enabled: true,
-            forwardToDiscord: false
+            forwardToDiscord: false,
+            syncGroup: "A"
         };
 
         clients.push(newClient);
@@ -1725,7 +1726,8 @@ module.exports = class MinecraftChat {
 
         // Re-render clients container
         const container = modalOverlay.querySelector('.clients-container');
-        container.innerHTML = clients.map(c => this.createClientCardHTML(c)).join('');
+        const advancedFeatures = this.settings.advancedFeatures;
+        container.innerHTML = clients.map(c => this.createClientCardHTML(c, advancedFeatures)).join('');
 
         // Re-setup event listeners
         this.setupClientEventListeners(modalOverlay);
@@ -1740,6 +1742,7 @@ module.exports = class MinecraftChat {
 
         // Re-render clients container
         const container = modalOverlay.querySelector('.clients-container');
+        const advancedFeatures = this.settings.advancedFeatures;
         if (clients.length === 0) {
             container.innerHTML = `
                 <div style="text-align: center; padding: 20px; color: #b5bac1; border: 1px dashed #4f545c; border-radius: 8px;">
@@ -1747,7 +1750,7 @@ module.exports = class MinecraftChat {
                 </div>
             `;
         } else {
-            container.innerHTML = clients.map(c => this.createClientCardHTML(c)).join('');
+            container.innerHTML = clients.map(c => this.createClientCardHTML(c, advancedFeatures)).join('');
         }
 
         // Re-setup event listeners
