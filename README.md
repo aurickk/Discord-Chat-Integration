@@ -168,7 +168,7 @@ Create trigger-based automation rules that execute actions when specific message
    - **Enabled**: Toggle to activate/deactivate
    - **Listen to**: Select which Minecraft clients trigger this automation
    - **Trigger**: Text to match in Minecraft chat
-   - **Absolute Match**: If checked, message must exactly match trigger (case-sensitive)
+   - **Absolute Match**: If checked, message must exactly match trigger (must contain player prefixes as well)
    - **Cooldown**: Minimum milliseconds between triggers
    - **Actions**: What to do when triggered
 
